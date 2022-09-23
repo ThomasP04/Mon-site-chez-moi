@@ -1,11 +1,15 @@
 import { userList } from '../datas/userList'
+import UserItem from './UserItem'
+import '../styles/UserList.css'
 
 function UserList() {
 	return (
 		<div>
-			<ul>
-				{userList.map((user) => (
-					<li key={user.id}>{user.name}</li>
+			<ul className='site-user-list'>
+				{userList.map(({ name}) => (
+					<UserItem
+						name={name}
+					/>
 				))}
 			</ul>
 		</div>
