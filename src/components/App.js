@@ -1,11 +1,11 @@
 import Banner from './Banner'
-import UserList from './UserList'
+import Main from './Main'
 
 function App() {
     return (
       <div>
 			  <Banner />
-			  <UserList />
+			  <Main />
 		  </div>
       )
 }
