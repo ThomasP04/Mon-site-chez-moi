@@ -1,8 +1,13 @@
 import '../styles/UserItem.css'
 
-function UserItem({name}) {
+function UserItem({id, name, setConversation}) {
+	function onclick(){
+		console.log(name)
+		console.log(typeof(setConversation))
+		setConversation(name)
+	}
 	return (
-		<li key={name} className='site-user-item'>
+		<li key={id} className='site-user-item' onClick={()=>{onclick()}}>
 			<p>{name}</p>
 		</li>
 	)

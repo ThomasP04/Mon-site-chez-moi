@@ -1,7 +1,7 @@
-.site-user-list{
+.site-message-list{
     border: solid 3px black;
-    flex: 1;
+    flex: 7;
     padding-left: 0;
     margin-left: 6px;
-
+    margin-right: 6px;
 }
