@@ -3,3 +3,12 @@
     flex-direction: row;
     width:100%;
 }
+
+.barre-message{
+    border:20px;
+    width:100%;
+}
+
+.barre-message input{
+    width:80%;
+}
