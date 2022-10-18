@@ -8,7 +8,7 @@ export const allMessage = {Alice:[
 	},
 	{
 		id: 2,
-        text : 'Bonjour toi aussi',
+        text : 'Comment vas-tu ?',
         autor : 'Moi',
         receiver : 'Alice',
         date : '24/09/22 11:30'        
@@ -18,14 +18,14 @@ export const allMessage = {Alice:[
 Baptiste:[
 	{
 		id: 1,
-        text : 'Salut',
+        text : 'Tu es où ?',
         autor : 'Baptiste',
         receiver : 'Moi',
         date : '24/09/22 11:29'
 	},
 	{
 		id: 2,
-        text : 'Salut toi aussi',
+        text : 'Devant Centrale',
         autor : 'Moi',
         receiver : 'Baptiste',
         date : '24/09/22 11:30'        
@@ -35,14 +35,14 @@ Baptiste:[
 Camille:[
 	{
 		id: 1,
-        text : 'Hey',
+        text : 'On mange quoi ?',
         autor : 'Camille',
         receiver : 'Moi',
         date : '24/09/22 11:29'
 	},
 	{
 		id: 2,
-        text : 'Hey toi aussi',
+        text : 'Des pâtes.',
         autor : 'Moi',
         receiver : 'Camille',
         date : '24/09/22 11:30'        
